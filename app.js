@@ -53,4 +53,4 @@ app.get("/res",(req,res)=>{
     res.render("res",{fin:fin});
 });
 
-app.listen(3000);
+app.listen(process.env.PORT);
